@@ -1,72 +1,52 @@
-# Power Plans — FPS & Latency Analysis
+# Power Plans: FPS & Latency Analysis
 
-Everything shown in the video, in one place. These are the **39 Windows power plans** that were
-actually tested, a tool to apply any of them with one click, and the full performance data
-(FPS + latency) behind the results.
+The 39 Windows power plans tested in the video, the script that applies any of them, and the raw measurement data (FPS and latency).
 
 > [!WARNING]
-> Some of these plans can cause a **blue screen (BSOD)** or instability on some machines.
-> Apply them at your own risk and **create a System Restore Point first** (the apply tool offers
-> this automatically). See [Restore to normal](#restore-to-normal) if anything goes wrong.
+> Some of these plans can trigger a blue screen (BSOD) or instability on certain hardware. Apply at your own risk. Create a System Restore Point first; the apply script does this for you. Recovery steps are in [Restore to default](#restore-to-default).
 
----
+## Contents
 
-## What's in here
-
-| Folder | What it is |
+| Folder | Contents |
 | --- | --- |
-| **[apply-power-plans/](apply-power-plans/)** | The 39 tested `.pow` plans + a one-click tool to apply any of them. |
-| **[performance-analysis/](performance-analysis/)** | The raw test data: `FPS Analysis.xlsx` and `Latency Analysis.xlsx`. |
-| **[presentation/](presentation/)** | The slide deck summarizing the FPS & latency findings. |
+| `apply-power-plans/` | The 39 `.pow` plans and a one-click apply script. |
+| `performance-analysis/` | Measurement data: `FPS Analysis.xlsx`, `Latency Analysis.xlsx`. |
+| `presentation/` | Slide deck with the FPS/latency results. |
 
----
+## Apply a plan
 
-## Quick start — apply a power plan
+1. Download the repo (Code > Download ZIP).
+2. Open `apply-power-plans/` and run `Apply Power Plan (Run as Admin).bat`.
+3. Select a plan by name. It is set as the active Windows power plan.
 
-1. Download the repo (green **Code → Download ZIP** button at the top of this page).
-2. Open the **apply-power-plans** folder and double-click **`Apply Power Plan (Run as Admin).bat`**.
-3. Pick a plan by its name → it becomes your active Windows power plan.
+The script self-elevates to admin and offers to create a restore point before applying.
 
-That's it. The tool requests admin rights automatically and offers to make a restore point first.
+### Inspect the plans
 
-### Browse every plan and its settings
-Open **`apply-power-plans/index.html`** in any browser. It lists all 39 plans, shows each one's
-AC/DC values, and tells you which plans are near-duplicates of each other.
+Open `apply-power-plans/index.html` in any browser. It lists every plan, its AC/DC values, and the similarity percentage between near-duplicate plans.
 
-> **Tip:** many tweaker plans use hidden power settings that show up as raw GUIDs. To fill in
-> **every** setting name accurately, double-click `Resolve-PowerSettingNames.ps1` once (no admin
-> needed — it only reads your own Windows registry), then re-open `index.html`.
+Tweaker plans often use hidden power settings that render as raw GUIDs. To resolve every setting name, run `Resolve-PowerSettingNames.ps1` once (no admin required; it only reads the registry), then reopen `index.html`.
 
----
+## Measurement data
 
-## The performance data
+`performance-analysis/` holds the results:
 
-The numbers behind everything are in **[performance-analysis/](performance-analysis/)**:
+- `FPS Analysis.xlsx`: frames per second per plan.
+- `Latency Analysis.xlsx`: input and system latency per plan.
 
-- **FPS Analysis.xlsx** — frames-per-second results across the tested plans.
-- **Latency Analysis.xlsx** — input / system latency results.
+Plan names are identical across the spreadsheets, `index.html`, and the `.pow` files, so each result maps directly to a plan.
 
-The same plan names are used in the spreadsheets, the `index.html` browser, and the `.pow` files,
-so you can match a result to a plan instantly.
+## Restore to default
 
----
-
-## Restore to normal
-
-If a plan causes problems:
-
-- **Easy way:** re-run `Apply Power Plan (Run as Admin).bat` and press **[R]** to switch back to
-  the Windows **Balanced** plan.
-- **If the PC won't boot:** enter Safe Mode (hold **Shift + Restart** -> Troubleshoot -> Advanced ->
-  Startup Settings -> Restart -> press **4 / F4**), open Command Prompt and run:
+- Re-run `Apply Power Plan (Run as Admin).bat` and press `R` to switch back to the Windows Balanced plan.
+- If the system will not boot, enter Safe Mode (Shift + Restart > Troubleshoot > Advanced > Startup Settings > Restart > 4 / F4), open Command Prompt, and run:
 
   ```
   powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e
   ```
 
-  (that restores the default Balanced plan).
+  This reactivates the default Balanced plan.
 
----
+## Notes
 
-*These plans were collected for testing and comparison. Credit for each plan goes to its original
-creator — names are kept exactly as released.*
+Plans are kept under their original file names. Credit for each plan belongs to its author.
