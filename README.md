@@ -21,6 +21,16 @@ The 39 Windows power plans tested in the video, the script that applies any of t
 
 The script self-elevates to admin and offers to create a restore point before applying.
 
+### Import all plans at once
+
+To register every plan in Windows Power Options in one pass, run
+`Import All Power Plans (Run as Admin).bat` in `apply-power-plans/`. It calls
+`powercfg /import` on each `.pow` file under `plans/`, giving every plan a fresh GUID
+so existing plans are not overwritten, then prints a per-plan result. After it finishes,
+all plans appear in Control Panel > Power Options (`powercfg.cpl`).
+
+Re-running it creates duplicate copies of every plan, so run it once.
+
 ### Inspect the plans
 
 Open `apply-power-plans/index.html` in any browser. It lists every plan, its AC/DC values, and the similarity percentage between near-duplicate plans.
