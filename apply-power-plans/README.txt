@@ -17,10 +17,24 @@ WHAT THIS FOLDER CONTAINS
   Apply Power Plan (Run as Admin).bat ... Double-click -> pick a plan
                               by its Excel name -> it becomes active.
                               Requests admin automatically.
-  Apply-PowerPlan.ps1 ....... The apply script (run by the .bat).
+  Import All Power Plans (Run as Admin).bat ... Installs every plan
+                              without activating it. Safe to re-run
+                              (no duplicates).
+  Diagnose (attach log to bug reports).bat ... Checks your system and
+                              writes a log to logs\. Attach it to any
+                              GitHub issue.
+  PowerPlanTool.ps1 ......... The engine used by all .bat files (v2).
+  plans-manifest.json ....... Plan names, SHA-256 hashes, stable GUIDs.
   Resolve-PowerSettingNames.ps1 ... Run once to fill EVERY setting
                               name (see "SETTING NAMES" below).
   README.txt ................ This file.
+
+---------------------------------------------------------------------
+IMPORTANT: EXTRACT THE ZIP FIRST
+---------------------------------------------------------------------
+  Right-click the downloaded ZIP -> Extract All. Do not run the .bat
+  from inside the ZIP window. If anything fails, run the Diagnose .bat
+  and attach the log from the logs\ folder to a GitHub issue.
 
 ---------------------------------------------------------------------
 SETTING NAMES  (important)

@@ -1,0 +1,357 @@
+{
+ "schema": 1,
+ "generated": "2026-10-29",
+ "plans": [
+  {
+   "file": "0 Synez_Public_Power.pow",
+   "displayName": "Synez-PowerPlan",
+   "friendlyName": "Synez Power Plan",
+   "sha256": "1002321c1a8413bfc6ab26a6608d123faa028531ea46c40447638954aa10ac44",
+   "guid": "1c320210-841a-5f13-86ab-26a6608d123f",
+   "sourceGuid": "f9d2ea40-af07-4944-a8fd-b4568593dd4d",
+   "size": 12288
+  },
+  {
+   "file": "arsenza low latency (INTEL FIX THREAD-DIRECTOR).pow",
+   "displayName": "Arsenza-PowerPlan-INTEL",
+   "friendlyName": "ARSENZA LOW LATENCY (INTEL THREAD DIRECTOR FIX)",
+   "sha256": "778b1260db2aa71eb05d06c764d294238b66a6c931534666576fa4d93aa430d6",
+   "guid": "60128b77-2adb-5ea7-b05d-06c764d29423",
+   "sourceGuid": "a76a67e1-4b55-4bb9-8c6d-4f18e35130e7",
+   "size": 24576
+  },
+  {
+   "file": "arsenza low latency.pow",
+   "displayName": "Arsezna-PowerPlan-ALL-CPU",
+   "friendlyName": "ARSENZA LOW LATENCY [ALL CPU]",
+   "sha256": "948844e68f9569a502e8342d4605505830e92cc1131998ac234748f308c64333",
+   "guid": "e6448894-958f-5569-82e8-342d46055058",
+   "sourceGuid": "38c1a372-58ef-49c5-91d4-91a54a730338",
+   "size": 24576
+  },
+  {
+   "file": "AutoOS.pow",
+   "displayName": "AutoOS-PowerPlan",
+   "friendlyName": "AutoOS",
+   "sha256": "395aaea4ee4d1c2991c306bfacc4ecd4f56b85945bc9d0ddb675b6079f4adc6c",
+   "guid": "a4ae5a39-4dee-591c-91c3-06bfacc4ecd4",
+   "sourceGuid": "629469e9-2377-4e7a-a2b9-ee16ef39a4a3",
+   "size": 20480
+  },
+  {
+   "file": "BEYOND-PERFORMANCE-AMD+INTEL.pow",
+   "displayName": "BEYOND-PERFORMANCE-AMD-INTEL-V1-PowerPlan",
+   "friendlyName": "BEYOND PERFORMANCE AMD/INTEL V1",
+   "sha256": "51e45c619295ac02ef3bdcb8d69e36472ccd22b35604c405785f2b07c12df9c1",
+   "guid": "615ce451-9592-52ac-af3b-dcb8d69e3647",
+   "sourceGuid": "45121e31-f6d5-46dc-b296-c10819e68c4d",
+   "size": 28672
+  },
+  {
+   "file": "Bitsum Highest Performance.pow",
+   "displayName": "Bitsum-Highest-Performance-PowerPlan",
+   "friendlyName": "Bitsum Highest Performance",
+   "sha256": "2068eae25ded2abd4982e78b5c44d52be6500d57836c34a22deca7779f345af1",
+   "guid": "e2ea6820-ed5d-5d2a-8982-e78b5c44d52b",
+   "sourceGuid": "2b2c1590-08a8-488a-affb-c58435cfb5bb",
+   "size": 8192
+  },
+  {
+   "file": "cactusOS.pow",
+   "displayName": "CactusOS-PowerPlan",
+   "friendlyName": "CactusOS Absolute Performance",
+   "sha256": "efe03e6494b23ac6c4939606fb313e330cd9afae14f0e1eed37eb0214c043c9b",
+   "guid": "643ee0ef-b294-563a-8493-9606fb313e33",
+   "sourceGuid": "ee33b2d1-93bc-44c0-b640-1d50cfa33600",
+   "size": 20480
+  },
+  {
+   "file": "Custom - Idle Enabled Low Latency Amit v3.pow",
+   "displayName": "AMIT-PowerPlan",
+   "friendlyName": "amit's low latency powerplan",
+   "sha256": "ed98a09f99e0b46355b6f0044b61fb742ecb4da56be2f1e383a306caa7cf891b",
+   "guid": "9fa098ed-e099-53b4-95b6-f0044b61fb74",
+   "sourceGuid": "95c05c40-e7bb-47bb-8baf-f152b0e1ffcc",
+   "size": 12288
+  },
+  {
+   "file": "FPSHEAVEN2026.pow",
+   "displayName": "FPSHEAVEN2026-PowerPlan",
+   "friendlyName": "FPSHEAVEN2026",
+   "sha256": "77b6ca87bb5e4d71fa379f87e0b535ff8e7f3a98d39b836917648b0eb99bb348",
+   "guid": "87cab677-5ebb-514d-ba37-9f87e0b535ff",
+   "sourceGuid": "80463975-1722-4c6f-81eb-3ac2eacf168c",
+   "size": 45056
+  },
+  {
+   "file": "GALA's ultimate performance(AMD).pow",
+   "displayName": "GALA'S-Ultimate-Performance-AMD-PowerPlan",
+   "friendlyName": "GALA's ultimate performance(AMD)",
+   "sha256": "58d15886a607e99ed839725201974720095f3e3778963ab597d6da57404cfab9",
+   "guid": "8658d158-07a6-5ee9-9839-725201974720",
+   "sourceGuid": "8a905088-aca0-425f-9a95-ebdc6cb177f2",
+   "size": 16384
+  },
+  {
+   "file": "Gavot Performance.pow",
+   "displayName": "EndGame-PowerPlan",
+   "friendlyName": "Endgame Performance",
+   "sha256": "e71ed9add1da0e60b186cf03607cc2dfcadaa984ad938b1ff947c3b0cb032197",
+   "guid": "add91ee7-dad1-500e-b186-cf03607cc2df",
+   "sourceGuid": "287763d5-e899-4774-bad9-cc0b30c3c391",
+   "size": 28672
+  },
+  {
+   "file": "GTweaks Power Plan V3.pow",
+   "displayName": "GTweaks-PowerPlan",
+   "friendlyName": "GTweaks Power Plan V3",
+   "sha256": "3f9d5af8cdac97e08c582f835cf576ee5d4a02fa40bedb04daa60a761949f081",
+   "guid": "f85a9d3f-accd-5097-8c58-2f835cf576ee",
+   "sourceGuid": "99999999-9999-2229-9999-999999999999",
+   "size": 20480
+  },
+  {
+   "file": "HybredLowLatencyHighPerf.pow",
+   "displayName": "Hybred-Low-Latency-PowerPlan",
+   "friendlyName": "Hybred Low Latency (HP)",
+   "sha256": "5fa32b2853aa59140133c64458d112eab4eb3eddf31fe6e73c802cbdc8af7fc3",
+   "guid": "282ba35f-aa53-5459-8133-c64458d112ea",
+   "sourceGuid": "f5bd33a9-c43d-48fc-822c-dcead119a103",
+   "size": 16384
+  },
+  {
+   "file": "IIIEXOIII_LOW_LATENCY.pow",
+   "displayName": "IIIEXOIII-PowerPlan",
+   "friendlyName": "IIIEXOIII LOW LATENCY",
+   "sha256": "d8df4a04eac135c2069d88873f9683c85caee0eed67ca2e286f7135fc41870f1",
+   "guid": "044adfd8-c1ea-5235-869d-88873f9683c8",
+   "sourceGuid": "45121e31-f6d5-46dc-b296-c10819e68c4d",
+   "size": 24576
+  },
+  {
+   "file": "imribiy2026.pow",
+   "displayName": "Imribiy-2026-PowerPlan",
+   "friendlyName": "imribiy 2026 Power Plan",
+   "sha256": "bcdd77b46ccde8f3e9a96f22cf631b09df6d82190db94e31dc4751941db12754",
+   "guid": "b477ddbc-cd6c-53e8-a9a9-6f22cf631b09",
+   "sourceGuid": "b0e9ee4f-f57d-45ef-ab81-f85e0e0540c4",
+   "size": 24576
+  },
+  {
+   "file": "IrisFixed.pow",
+   "displayName": "Iris-PowerPlan",
+   "friendlyName": "Iris",
+   "sha256": "04e6835a10ebbd242bf4f17a194b5bda910f4eb4dbe0c1dbca61c67781b0d4cb",
+   "guid": "5a83e604-eb10-54bd-abf4-f17a194b5bda",
+   "sourceGuid": "3325b92e-d974-49a2-9e52-b25b4517c46c",
+   "size": 16384
+  },
+  {
+   "file": "J o k r O S   P o w e r   P l a n.pow",
+   "displayName": "JokrOS-PowerPlan",
+   "friendlyName": "J o k r O S   P o w e r   P l a n",
+   "sha256": "fdf7542d2310332160ce0a611eb1440ac254d70d02e8fd55a5ab3116d6e86f96",
+   "guid": "2d54f7fd-1023-5133-a0ce-0a611eb1440a",
+   "sourceGuid": "20953004-2344-41b2-9e64-3177c762e55c",
+   "size": 16384
+  },
+  {
+   "file": "Jackpot2026.pow",
+   "displayName": "Jackpot2026-PowerPlan",
+   "friendlyName": "Jackpot2026",
+   "sha256": "7e0f789b2380ed59d5239503f185197c8c208f1291d317adcfdd73988e312ca6",
+   "guid": "9b780f7e-8023-59ed-9523-9503f185197c",
+   "sourceGuid": "5b1dfba8-24ae-4f1e-8a9b-d6edfd9ce098",
+   "size": 32768
+  },
+  {
+   "file": "Khorvie.pow",
+   "displayName": "Khorvie-PowerPlan",
+   "friendlyName": "Khorvie's PowerPlan",
+   "sha256": "0e41edd749126d44c4f92d2c5f67e7a1abe0809a4bd69aff2a88f8f90c206b61",
+   "guid": "d7ed410e-1249-546d-84f9-2d2c5f67e7a1",
+   "sourceGuid": "8070b076-188f-428d-a9d6-e1a2f99fad5d",
+   "size": 20480
+  },
+  {
+   "file": "Kizzimo's Extreme Low Latency.pow",
+   "displayName": "Kizzimo-PowerPlan",
+   "friendlyName": "Kizzimo's Extreme Low Latency",
+   "sha256": "b4fd46b063397cb4c36a030aeaba3a6583e46d4886222425b8ef82a403377512",
+   "guid": "b046fdb4-3963-547c-836a-030aeaba3a65",
+   "sourceGuid": "7b9d20b2-e88b-4451-8f09-bd03a5967180",
+   "size": 45056
+  },
+  {
+   "file": "KSOS11.pow",
+   "displayName": "Sazinho-PowerPlan",
+   "friendlyName": "Sazinho Tweaks Latency Plan",
+   "sha256": "49e43d8c021708d9c79eec0316a9dee28280e9957e3e0308b41e57bf2c50b358",
+   "guid": "8c3de449-1702-5908-879e-ec0316a9dee2",
+   "sourceGuid": "32356631-3237-6161-3365-633366383231",
+   "size": 16384
+  },
+  {
+   "file": "LLG-C#U039eRT1F1#U039eD-FOR-NON-K-CPUs.pow",
+   "displayName": "LLG-CERTIFIED-FOR-NON-K-CPUs-PowerPlan",
+   "friendlyName": "LLG-CΞRT1F1ΞD-FOR-NON-K-CPUs",
+   "sha256": "97ce65117b9f7325bde9792aa213f9a4a0eab4f995e9eb221cbe66cdb29d8c00",
+   "guid": "1165ce97-9f7b-5573-bde9-792aa213f9a4",
+   "sourceGuid": "45121e31-f6d5-46dc-b296-c10819e68c4d",
+   "size": 32768
+  },
+  {
+   "file": "LLG-CΞRT1F1ΞD-FOR-PARKING+E-CORES-FIX.pow",
+   "displayName": "LLG-CERTIFIED-FOR-PARKING+E-CORES-FIX-PowerPlan",
+   "friendlyName": "LLG-CΞRT1F1ΞD-FOR-PARKING+E-CORES-FIX",
+   "sha256": "bcb98b32a9527061e3765a0372aa6f1d4f68266ae441a30f87df031dff4e3d07",
+   "guid": "328bb9bc-52a9-5170-a376-5a0372aa6f1d",
+   "sourceGuid": "aa131319-f6d5-46dc-b296-c10819e68c4d",
+   "size": 32768
+  },
+  {
+   "file": "melody LowestLatency.pow",
+   "displayName": "LowLatency-PowerPlan",
+   "friendlyName": "Lowest Latency",
+   "sha256": "1dcacde19a74fcb666edb66ca10d6e4d2ca15e8f9aa33aaf0f1a0b42f7061bf2",
+   "guid": "e1cdca1d-749a-56fc-a6ed-b66ca10d6e4d",
+   "sourceGuid": "4444764b-e244-4ac3-9eb2-0d978fe2bc01",
+   "size": 16384
+  },
+  {
+   "file": "Microsoft High performance.pow",
+   "displayName": "MSFT-High-Performance-PowerPlan",
+   "friendlyName": "High Performance",
+   "sha256": "f32b7c39e8648eebbe9b69430ca921e949e77a9e769bf91f76e140955ba46142",
+   "guid": "397c2bf3-64e8-5b8e-be9b-69430ca921e9",
+   "sourceGuid": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+   "size": 8192
+  },
+  {
+   "file": "Microsoft Ultimate Performance.pow",
+   "displayName": "MSFT-UltimatePerformance-PowerPlan",
+   "friendlyName": "Ultimate Performance",
+   "sha256": "68d2f52462772bf06daea05a8ef67bbdc78ececd4586da0dc88c2329075bb9e3",
+   "guid": "24f5d268-7762-502b-adae-a05a8ef67bbd",
+   "sourceGuid": "c6d5f16b-d950-4ab7-81cf-876c0af7ffd7",
+   "size": 8192
+  },
+  {
+   "file": "Mitstas IDLE ENABLED.pow",
+   "displayName": "Mitstas-PowerPlan",
+   "friendlyName": "Mitstas IDLE ENABLED",
+   "sha256": "62b7377342639d70080b485b7fcef94e2ee3a9cb68b68f57e5f4324f900c2e43",
+   "guid": "7337b762-6342-509d-880b-485b7fcef94e",
+   "sourceGuid": "26d6d43e-5428-4a17-8914-4f01b8d2ec49",
+   "size": 24576
+  },
+  {
+   "file": "n1kobg GPU_Booster_Power_Plan.pow",
+   "displayName": "GPU-BOOSTER-PowerPlan",
+   "friendlyName": "GPU Booster Power Plan",
+   "sha256": "0636f77b685a0156cc2d516ed6dd602f61d33a6b14ce3fca6f98176a3d0a2eb8",
+   "guid": "7bf73606-5a68-5601-8c2d-516ed6dd602f",
+   "sourceGuid": "7484ff1a-d089-4ad1-8d79-d7c1f83e8a7e",
+   "size": 16384
+  },
+  {
+   "file": "Prodazin Power Plan.pow",
+   "displayName": "Prodazin-PowerPlan",
+   "friendlyName": "Prodazin Power Plan",
+   "sha256": "7690df624108efe2556b6d5bc302bce62c354f5a8991caaaf38b0ec09c4963c9",
+   "guid": "62df9076-0841-52ef-956b-6d5bc302bce6",
+   "sourceGuid": "725758b0-be5f-450c-970b-5d7e1dedc8f9",
+   "size": 28672
+  },
+  {
+   "file": "Reticle v2.pow",
+   "displayName": "Reticle-PowerPlan",
+   "friendlyName": "<Reticle>",
+   "sha256": "3961c2a96fbc80c7ab30f63400125ec45d71173df55a3e20b8effb6f0b20403e",
+   "guid": "a9c26139-bc6f-5780-ab30-f63400125ec4",
+   "sourceGuid": "09650645-ffd1-4e29-bd38-c20a1b59e8ad",
+   "size": 45056
+  },
+  {
+   "file": "RevisionPowerPlanV2.8.pow",
+   "displayName": "Revision-PowerPlan",
+   "friendlyName": "Revision™ Extreme Performance",
+   "sha256": "8d3f434ec1009e5b77093fbc17a4619a6c27a15c34b27c3b62f064c04b0a278b",
+   "guid": "4e433f8d-00c1-5b9e-b709-3fbc17a4619a",
+   "sourceGuid": "88888888-8888-8888-8888-888888888888",
+   "size": 28672
+  },
+  {
+   "file": "RIP Tweaks Power Plan.pow",
+   "displayName": "RIP-PowerPlan",
+   "friendlyName": "RIP Tweaks Power Plan",
+   "sha256": "fa3b4d76450b5d42a25e24bd25b0164313df1d8d130a850a5292e93c0606bb33",
+   "guid": "764d3bfa-0b45-525d-a25e-24bd25b01643",
+   "sourceGuid": "3e32a3e1-82cd-43ed-a9a2-a2d909060a05",
+   "size": 8192
+  },
+  {
+   "file": "Rosca Tweaks v2.pow",
+   "displayName": "RoscaV2-PowerPlan",
+   "friendlyName": "Rosca Tweaks v2",
+   "sha256": "a20a8f8c8a4cc0e75a93e3a32ece9635b554771dd509f1b15ab98bbc9b06c46b",
+   "guid": "8c8f0aa2-4c8a-57c0-9a93-e3a32ece9635",
+   "sourceGuid": "baac8d85-58e1-4e52-acfe-d89173d5dd9c",
+   "size": 20480
+  },
+  {
+   "file": "SapphireOS.pow",
+   "displayName": "Sapphire-PowerPlan",
+   "friendlyName": "Sapphire",
+   "sha256": "969861e034cd80317eeadb847f9e669e3d95c2b375b72c22e7f02955f29c7ccb",
+   "guid": "e0619896-cd34-5180-beea-db847f9e669e",
+   "sourceGuid": "8b1e6fbd-33a2-411c-9317-232e23154cf5",
+   "size": 16384
+  },
+  {
+   "file": "Slower.pow",
+   "displayName": "Slower-PowerPlan",
+   "friendlyName": "Slower",
+   "sha256": "799af04c65a262d75926152de53f80901603231b0b54c70605267e622ad8e47f",
+   "guid": "4cf09a79-a265-5762-9926-152de53f8090",
+   "sourceGuid": "55555555-5555-5555-5555-555555555555",
+   "size": 24576
+  },
+  {
+   "file": "Velo's Power Plan.pow",
+   "displayName": "Velo's-PowerPlan",
+   "friendlyName": "Velo's Power Plan",
+   "sha256": "3371c467c472bffa070fc1d1351f33996928098804d0122034cbc2fb68e54181",
+   "guid": "67c47133-72c4-5abf-870f-c1d1351f3399",
+   "sourceGuid": "00000000-0000-0000-0000-000000000000",
+   "size": 24576
+  },
+  {
+   "file": "VTRL Optimized.pow",
+   "displayName": "VTRL-PowerPlan",
+   "friendlyName": "VTRL Optimized",
+   "sha256": "7d11462b35216d9b4ca5d1a39be1060509cee35acada653ba6a440d16bf23a86",
+   "guid": "2b46117d-2135-5b6d-8ca5-d1a39be10605",
+   "sourceGuid": "b7fa5c0c-f26c-46a2-b22f-b176c5c69924",
+   "size": 16384
+  },
+  {
+   "file": "Xilly.pow",
+   "displayName": "XILLY'S-PowerPlan",
+   "friendlyName": "Xilly's Public PowerPlan",
+   "sha256": "6c857014156f608a25df041d1816267a0e7eaeaad2bc034c8bca347e72935c40",
+   "guid": "1470856c-6f15-5a60-a5df-041d1816267a",
+   "sourceGuid": "10000000-0000-0000-0000-000000000001",
+   "size": 8192
+  },
+  {
+   "file": "XNRL Pro Plan.pow",
+   "displayName": "XNRL-PowerPlan",
+   "friendlyName": "XNRL Pro Plan",
+   "sha256": "acf0d85cb61fe3b7d49533332c84a455b8e514b394a512f4e8f090c8e2bd5be0",
+   "guid": "5cd8f0ac-1fb6-57e3-9495-33332c84a455",
+   "sourceGuid": "fe6eac0a-5092-43aa-ac0f-1da6aeb9bafb",
+   "size": 32768
+  }
+ ]
+}
