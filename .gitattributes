@@ -1,0 +1,7 @@
+# Windows scripts must keep CRLF; store them byte-for-byte.
+*.bat -text
+*.cmd -text
+*.ps1 -text
+*.pow binary
+*.xlsx binary
+*.pptx binary

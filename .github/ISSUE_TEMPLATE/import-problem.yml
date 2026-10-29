@@ -1,0 +1,46 @@
+name: Plan import / apply problem
+description: A plan does not import, does not appear, or does not stay active.
+labels: ["import-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening an issue, download the latest version of the repository and run
+        `apply-power-plans/Diagnose (attach log to bug reports).bat`.
+        It changes nothing permanently and writes a log file into `apply-power-plans/logs/`.
+        Reports without that log usually cannot be investigated.
+  - type: input
+    id: build
+    attributes:
+      label: Windows version and build
+      description: "Run `winver`. Example: 26H2, build 26300.9711"
+    validations:
+      required: true
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: What happens?
+      options:
+        - The script shows [FAIL] for one or more plans
+        - The script says OK but the plan is not in Power Options
+        - The plan is applied but Windows switches back to another plan
+        - The script window closes immediately / never starts
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: plan
+    attributes:
+      label: Which plan(s)?
+  - type: textarea
+    id: log
+    attributes:
+      label: Diagnose log
+      description: Drag and drop the .log file from apply-power-plans/logs/ here.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Where is the folder (Desktop, Downloads, OneDrive, USB)? Any other tweaks or custom OS?
